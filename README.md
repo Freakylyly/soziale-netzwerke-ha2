@@ -4,17 +4,16 @@ Andreas Oehlman, Hai Tran
 
 #Wie können wir den Server starten?
 
-Vorrausetzungen: Django 1.9.6, Python 3.4
+Vorrausetzungen: Python 3.4
 
 How To Start:
 
 1. Repository herunterladen.
-2. Entpacken und in dem Terminal des OS in das Verzeichnis TodoTracker wechseln.
-3. Eigene Virtual Environment erstellen. command: $ python3 -m venv myvenv      (myvenv ist der Name der Virtual Environment
+2. Entpacken und in dem Terminal des OS in das Verzeichnis 'soziale-netzwerke-ha2' wechseln.
+3. Eigene Virtual Environment erstellen. command: $ python3 -m venv myvenv      (myvenv ist der Name der Virtual Environment)
 4. Virtual Environment aktivieren: $ source myvenv/bin/activate
-5. Dantenbank erstellen. command: $ python manage.py migrate
-6. Für die Modells (Objekte) die Tabellen in der Datenbank erstellen: $ python manage.py makemigrations listApp 
-                                                                      $ python manage.py migrate listApp
+5. Django installieren: $ pip install django~=1.9.6
+6. Dantenbank erstellen. command: $ python manage.py migrate
 7. Server laufen lassen: $ python manage.py runserver
 8. In den Browser wechseln und 127.0.0.1:8000 aufrufen
 
