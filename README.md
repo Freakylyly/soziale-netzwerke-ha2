@@ -2,7 +2,7 @@ Abgabe 02 - TODO Tracker
 
 Andreas Oehlman, Hai Tran
 
-Wie können wir den Server starten?
+#Wie können wir den Server starten?
 
 Vorrausetzungen: Django 1.9.6, Python 3.4
 
